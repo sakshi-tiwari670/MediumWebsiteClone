@@ -5,14 +5,15 @@ import { getFirestore } from 'firebase/firestore';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyDb0Dvr0L5NIuN3V2Y7Q4Kl9LaVusvHsoQ',
-  authDomain: 'medium-clone-10269.firebaseapp.com',
-  projectId: 'medium-clone-10269',
-  storageBucket: 'medium-clone-10269.appspot.com',
-  messagingSenderId: '542812732222',
-  appId: '1:542812732222:web:cf5d2524934e22f2234a6f',
+  apiKey: "AIzaSyCsR0oJuB8wIpH_mhjOqftcmN8McimSYJA",
+  authDomain: "medium-clone-972c3.firebaseapp.com",
+  projectId: "medium-clone-972c3",
+  storageBucket: "medium-clone-972c3.appspot.com",
+  messagingSenderId: "1081932986571",
+  appId: "1:1081932986571:web:bfa850db2ca62c70e2c34e"
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
